@@ -9,10 +9,6 @@ public class PathInfo {
     long size;
     List<PathInfo> children;
 
-    public PathInfo(Path path) {
-        this.path = path;
-    }
-
     public PathInfo(Path path, long size, List<PathInfo> children) {
         this.path = path;
         this.size = size;
