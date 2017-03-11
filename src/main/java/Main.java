@@ -17,7 +17,7 @@ public class Main {
     private static int rootLevel;
 
     public static void main(String[] args) throws IOException {
-        Path dir = Paths.get("C:\\Users\\kadav\\Downloads");
+        Path dir = Paths.get("C:\\");
         rootLevel = dir.getNameCount();
         boolean isDir = Files.isDirectory(dir);
         long size = Files.size(dir);
